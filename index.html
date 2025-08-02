@@ -3,281 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- --------- UNICONS ---------- -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-
-    <!-- --------- CSS ---------- -->
+    <meta name="description" content="Portfolio of Nicanor Nicolas, a Computer Engineer specializing in AI/ML, Blockchain, and Software Development.">
+    <title>Nicanor Nicolas - Computer Engineer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="styles.css">
-
-    <!-- --------- FAVICON ---------- -->
-    <link rel="shortcut icon" href="images/image (8).png" type="image/x-icon">
-
-    <title>Computer Engineer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/image (8).png" type="image/png">
 </head>
 <body>
-   <div class="container">
-    <!-- --------------- HEADER --------------- -->
-      <nav id="header">
-        <div class="nav-logo">
-            <p class="nav-name">Computer Engineer</p>
-            <span>.</span>
-        </div>
-        <div class="nav-menu" id="myNavMenu">
-            <ul class="nav_menu_list">
-                <li class="nav_list">
-                    <a href="#home" class="nav-link active-link">Home</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#about" class="nav-link">About</a>
-                    <div class="circle"></div>
-                </li>
-                 <li class="nav_list">
-                    <a href="#education" class="nav-link">Education</a>
-                    <div class="circle"></div>
-                </li>
-                 <li class="nav_list">
-                    <a href="#interests" class="nav-link">Interests</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#projects" class="nav-link">Projects</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#contact" class="nav-link">Contact</a>
-                    <div class="circle"></div>
-                </li>
-            </ul>
-        </div>
-        <div class="nav-button">
-            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-        </div>
-        <div class="nav-menu-btn">
-            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-        </div>
-      </nav>
 
+    <!-- ======== HEADER ======== -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Nicanor Nicolas</a>
 
-    <!-- -------------- MAIN ---------------- -->
-    <main class="wrapper">
-       <!-- -------------- FEATURED BOX (HOME) ---------------- -->
-       <section class="featured-box" id="home">
-          <div class="featured-text">
-            <div class="featured-text-card">
-                <span>Nicanor Nicolas</span> <!-- Replace with your name -->
+            <!-- The "checkbox hack" for a pure CSS mobile menu -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
             </div>
-            <div class="featured-name">
-                <p>I'm <span class="typedText"></span></p> <!-- Replace with your title/profession -->
-            </div>
-            <div class="featured-text-info">
-                <p> <!-- Replace with your brief introduction -->
-                    Experienced Computer Engineer with a diverse skill set, including AI/ML, software and hardware development, and blockchain development. Passionate about providing user-friendly services to all clients with no bias, I also have a strong interest in Data Analytics. Committed to delivering high-quality products that enhances user experiences and meets the dynamic needs of various industries.
+        </nav>
+    </header>
+
+    <main>
+        <!-- ======== HERO SECTION ======== -->
+        <section class="hero container">
+            <div class="hero-text">
+                <h1 class="hero-title">Computer Engineer</h1>
+                <p class="hero-subtitle">Specializing in AI, Blockchain, and Full-Stack Development</p>
+                <p class="hero-description">
+                    Experienced engineer with a passion for building user-centric software and hardware solutions. Strong interest in data analytics and creating scalable, impactful applications.
                 </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="public/Nicanor_Nicolas_CV.pdf" download class="btn btn-secondary">Download CV</a>
+                </div>
             </div>
-            <div class="featured-text-btn">
-                <button class="btn blue-btn">Hire Me</button> <!-- Update link/functionality if needed -->
-                <a href="public/Nicanor_Nicolas_CV.pdf" download class="btn">Download CV <i class="uil uil-file-alt"></i></a> <!-- Link to your CV -->
+            <div class="hero-image">
+                <img src="images/image (8).png" alt="Portrait of Nicanor Nicolas">
             </div>
-            <div class="social_icons"> <!-- Update social media links -->
-                <a href="www.linkedin.com/in/nicanornicolas64" class="icon"><i class="uil uil-linkedin-alt"></i></a>
-                <a href="https://x.com/Nik_aNo" class="icon"><i class="uil uil-twitter"></i> </a>
-                <a href="https://github.com/nicanornicolas" class="icon"><i class="uil uil-github-alt"> </i> </a>
-            </div>
-          </div>
-          <div class="featured-image"> <!-- Update image source if needed -->
-            <div class="image">
-                <img src="images/image (8).png" alt="avatar">
-            </div>
-          </div>
-            
-       </section>
+        </section>
 
-       <!-- -------------- ABOUT ME SECTION ---------------- -->
-       <section class="section" id="about">
-          <div class="top-header">
-            <h1>About Me</h1>
-          </div>
-          <div class="row">
-            <div class="col">
-                <div class="about-info">
-                    <h3>Introduction</h3> <!-- Updated heading -->
-                    <p> <!-- Replace with your detailed about me information -->
-                        I am a Computer Engineer with over three years of experience specializing in both software and hardware applications. My expertise extends to building smart contracts for blockchain applications, leveraging agentic capabilites by developing AI-powered apps that enhance user experiences. As an entrepreneur, I thrive on innovation and continuously seek new opportunities to integrate technology within most of the production line and the consumer experience. My diverse skill set allows me to create impactful solutions that meet the evolving demands of various industries while fueling my passion for both technology and enterpreneurship.
+        <!-- ======== ABOUT SECTION ======== -->
+        <section id="about" class="about section container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-description">
+                    <h3>Introduction</h3>
+                    <p>
+                        I am a Computer Engineer with over three years of experience specializing in both software and hardware applications. My expertise extends to building smart contracts for blockchain applications and developing AI-powered apps that enhance user experiences.
+                    </p>
+                    <h3>Interests</h3>
+                    <p>
+                        <strong>Technology:</strong> Artificial Intelligence, Blockchain, Data Science, Web Development.
+                    </p>
+                    <p>
+                        <strong>Professional:</strong> Building scalable applications, Open Source contributions, Mentoring.
                     </p>
                 </div>
-            </div>
-             <div class="col"> <!-- Programming Languages Section -->
-                <div class="skills-box">
-                    <div class="skills-header">
-                        <h3>Programming Languages</h3>
-                    </div>
-                    <div class="skills-list"> <!-- Replace with your programming languages -->
-                        <span>JavaScript/TypeScript</span>
-                        <span>Python</span>
-                        <span>SQL</span>
-                        <span>NoSQL</span>
-                        <span>Solidity</span>
-                         <span>C++</span>
-                         <span>Java</span>
-                    </div>
+                <div class="about-skills">
+                    <h3>Core Technologies</h3>
+                    <ul class="skills-list">
+                        <li>JavaScript/TypeScript</li>
+                        <li>Python</li>
+                        <li>Solidity</li>
+                        <li>Motoko</li>
+                        <li>SQL & NoSQL</li>
+                        <li>C++</li>
+                        <li>Rust</li>
+                    </ul>
                 </div>
             </div>
-          </div>
-       </section>
+        </section>
 
-        <!-- -------------- EDUCATIONAL BACKGROUND SECTION ---------------- -->
-       <section class="section" id="education">
-          <div class="top-header">
-            <h1>Educational Background</h1>
-          </div>
-          <div class="row"> <!-- Add your educational details here -->
-            <div class="col">
-                <div class="edu-info">
-                    <h3>University Name</h3> <!-- Replace with University Name -->
-                    <p>Degree Name</p> <!-- Replace with Degree Name -->
-                    <p>Years Attended</p> <!-- Replace with Years Attended -->
-                </div>
-                <div class="edu-info">
-                    <h3>Another Educational Detail</h3> <!-- Add more educational details as needed -->
-                    <p>Detail 1</p>
-                    <p>Detail 2</p>
-                </div>
-                 <div class="about-btn"> <!-- Link to CV -->
-                        <a href="public/Nicanor_Nicolas_CV.pdf" download class="btn">Download CV <i class="uil uil-import"></i></a>
-                    </div>
-            </div>
-          </div>
-       </section>
-
-        <!-- -------------- INTERESTS SECTION ---------------- -->
-       <section class="section" id="interests">
-          <div class="top-header">
-            <h1>Interests</h1>
-          </div>
-          <div class="row"> <!-- Add your interests here -->
-            <div class="col">
-                <div class="interest-info">
-                    <h3>Technology Interests</h3> <!-- Replace with your technology interests -->
-                    <p>Artificial Intelligence, Blockchain, Data Science, Web Development.</p>
-                </div>
-                 <div class="interest-info">
-                    <h3>Professional Interests</h3> <!-- Replace with your professional interests -->
-                    <p>Building scalable applications, Open Source contributions, Mentoring.</p>
-                </div>
-            </div>
-          </div>
-       </section>
-
-       <!-- -------------- PROJECTS SECTION ---------------- -->
-       <section class="section" id="projects">
-          <div class="top-header">
-              <h1> My Projects</h1>
-          </div>
-          <div class="project-container"> <!-- Add your projects here -->
-            <div class="project-box"> <!-- Example Project -->
-                <h3>Project Title 1</h3> <!-- Replace with Project Title -->
-                <p>Brief description of Project 1.</p> <!-- Replace with Project Description -->
-                <a href="#" class="project-link">View Project</a> <!-- Replace with Project Link -->
-            </div>
-            <div class="project-box"> <!-- Example Project -->
-                <h3>Project Title 2</h3> <!-- Replace with Project Title -->
-                <p>Brief description of Project 2.</p> <!-- Replace with Project Description -->
-                <a href="#" class="project-link">View Project</a> <!-- Replace with Project Link -->
-            </div>
-             <div class="project-box"> <!-- Example Project -->
-                <h3>Project Title 3</h3> <!-- Replace with Project Title -->
-                <p>Brief description of Project 3.</p> <!-- Replace with Project Description -->
-                <a href="#" class="project-link">View Project</a> <!-- Replace with Project Link -->
-            </div>
-          </div>
-       </section>
-
-       <!-- -------------- CONTACT BOX ---------------- -->
-
-       <section class="section" id="contact">
-          <div class="top-header">
-            <h1>Get in touch</h1>
-            <span>Do you have a project in your mind, contact me here</span>
-          </div>
-          <div class="row">
-             <div class="col">
-                <div class="contact-info">
-                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2> <!-- Update contact information -->
-                    <p><i class="uil uil-envelope"></i> Email: your.email@example.com</p> <!-- Replace with your email -->
-                    <p><i class="uil uil-phone"></i> Tel: +123 456 7890</p> <!-- Replace with your phone number -->
-                </div>
-             </div>
-             <div class="col">
-                <div class="form-control">
-                    <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Name">
-                        <input type="text" class="input-field" placeholder="Email">
-                    </div>
-                    <div class="text-area">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-button">
-                        <button class="btn">Send <i class="uil uil-message"></i></button> <!-- Update functionality if needed -->
+        <!-- ======== PROJECTS SECTION ======== -->
+        <section id="projects" class="projects section container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3 class="project-title">AURA JOURNAL</h3>
+                    <p class="project-description">AURA Journal is a full-stack journaling application that combines the simplicity of personal reflection with the power of AI-driven sentiment analysis and topic extraction.</p>
+                    <p class="project-tech"><strong>Tech Used:</strong> Built with React Native (Expo) for cross-platform mobile experience and a robust Python FastAPI microservices backend.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Demo</a>
+                        <a href="#" class="project-link">https://github.com/nicanornicolas/AURA-JOURNAL.git</a>
                     </div>
                 </div>
-             </div>
-          </div>
-       </section>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3 class="project-title">WELLNESS AI</h3>
+                    <p class="project-description">AI-powered wellness companion application.</p>
+                    <p class="project-tech"><strong>Tech Used:</strong> React frontend, Express backend, and Python agent service for intelligent wellness recommendations.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Demo</a>
+                        <a href="#" class="project-link">https://github.com/nicanornicolas/Wellness-AI.git</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3 class="project-title">Project Title 3</h3>
+                    <p class="project-description">A brief but clear description of what this project is, its purpose, and the problem it solves.</p>
+                    <p class="project-tech"><strong>Tech Used:</strong> C++, Hardware Emulation</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View Demo</a>
+                        <a href="#" class="project-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- ======== CONTACT SECTION ======== -->
+        <section id="contact" class="contact section container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-message">Have a project in mind or just want to connect? Feel free to reach out. I'm always open to discussing new ideas and opportunities.</p>
+            <a href="nyererenicolas33@gmail.com" class="btn btn-primary">Say Hello</a>
+        </section>
     </main>
 
-
-    <!-- --------------- FOOTER --------------- -->
-    <footer>
-        <div class="top-footer">
-            <p>Your Name/Alias</p> <!-- Replace with your name/alias -->
-        </div>
-        <div class="middle-footer">
-            <ul class="footer-menu">
-                <li class="footer_menu_list">
-                    <a href="#home">Home</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#about">About</a>
-                </li>
-                 <li class="footer_menu_list">
-                    <a href="#education">Education</a>
-                </li>
-                 <li class="footer_menu_list">
-                    <a href="#interests">Interests</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#projects">Projects</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-social-icons"> <!-- Update social media links -->
-          <a href="#" class="icon"><i class="uil uil-linkedin-alt"></i></a> <!-- Replace with your LinkedIn -->
-          <a href="#" class="icon"><i class="uil uil-twitter"></i> </a> <!-- Replace with your Twitter -->
-          <a href="#" class="icon"><i class="uil uil-github-alt"> </i> </a> <!-- Replace with your GitHub -->
-        </div>
-        <div class="bottom-footer">
-            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Your Name/Alias</a> - All rights reserved</p> <!-- Replace with your name/alias and desired copyright text -->
+    <!-- ======== FOOTER ======== -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Nicanor Nicolas. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/nicanornicolas64" aria-label="LinkedIn" target="_blank">LinkedIn</a>
+                <a href="https://github.com/nicanornicolas" aria-label="GitHub" target="_blank">GitHub</a>
+                <a href="https://x.com/Nik_aNo" aria-label="Twitter" target="_blank">Twitter</a>
+            </div>
         </div>
     </footer>
 
-    </div>
-
-
-
-
-    <!-- ----- TYPING JS Link ----- -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> <!-- Keep if you want typing effect -->
-
-       <!-- ----- SCROLL REVEAL JS Link----- -->
-    <script src="https://unpkg.com/scrollreveal"></script> <!-- Keep if you want scroll reveal effect -->
-
-    <!-- ----- MAIN JS ----- -->
-    <script src="script.js"></script> <!-- Keep if you have custom JS -->
 </body>
 </html>
