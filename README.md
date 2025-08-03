@@ -19,22 +19,22 @@ portfolio/
 ├── public/
 │ └── Nicanor_Nicolas_CV.pdf
 └── images/
-└── image (8).png
+└── nicanor.jpg
 
 
 ## 📝 How to Use
 
-1.  **Clone or Download:** Get the files onto your local machine.
-2.  **Add Your Content:**
-    *   Open `index.html` and replace the placeholder text in the "About", "Projects", and "Contact" sections with your own information.
-    *   Update the project links (`href="#"`) to point to your live demos and source code repositories.
-    *   Change the email in the contact section's `mailto:` link.
-3.  **Update Assets:**
-    *   Replace `images/image (8).png` with your own profile picture.
-    *   Place your CV in the `public/` folder and ensure the link in `index.html` matches the filename.
-4.  **Customize Styles (Optional):**
-    *   Open `styles.css`.
-    *   To change the main color theme, just modify the values in the `: root` section at the top of the file (e.g., `--primary-color`).
+1. **Clone or Download:** Get the files onto your local machine.
+2. **Add Your Content:**
+    - Open `index.html` and replace the placeholder text in the "About", "Projects", and "Contact" sections with your own information.
+    - Update the project links (`href="#"`) to point to your live demos and source code repositories.
+    - Change the email in the contact section's `mailto:` link.
+3. **Update Assets:**
+    - Replace `images/nicanor.jpg` with your own profile picture if desired.
+    - Place your CV in the `public/` folder and ensure the link in `index.html` matches the filename.
+4. **Customize Styles (Optional):**
+    - Open `styles.css`.
+    - To change the main color theme, just modify the values in the `:root` section at the top of the file (e.g., `--primary-color`).
 
 ## 👀 Viewing the Portfolio
 
