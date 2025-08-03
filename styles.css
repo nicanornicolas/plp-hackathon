@@ -321,6 +321,45 @@ img {
     color: var(--primary-color);
 }
 
+/* ======== EDUCATION SECTION ======== */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.education-card {
+    background-color: var(--secondary-color); /* A slightly different background to stand out */
+    border: 1px solid #e0e0e0;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.education-degree {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color-dark);
+}
+
+.education-institution {
+    color: var(--text-color-light);
+    margin-bottom: 1rem;
+    flex-grow: 1; /* This makes the card bodies align nicely if text length differs */
+}
+
+.education-date {
+    font-style: italic;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.education-cv {
+    text-align: center;
+    margin-top: 3rem; /* Add space above the button */
+}
+
 /* ======== RESPONSIVE DESIGN ======== */
 
 /* For Tablets and smaller devices */
